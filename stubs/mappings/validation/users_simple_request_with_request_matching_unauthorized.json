@@ -1,0 +1,16 @@
+{       
+    "priority": 1,
+    "request": {        
+        "method": "POST",
+        "urlPath": "/users",
+        "headers" : {
+          "Authorization" : {
+            "doesNotMatch" : "^Bearer AbCdEfGhiJKlMnOp12345678901112$"    
+          }
+        }
+    },
+    "response": {
+        "status": 401
+    }
+  }
+  

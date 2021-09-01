@@ -1,0 +1,15 @@
+{       
+    "request": {
+        "method": "GET",
+        "urlPath": "/users/delay"        
+    },
+    "response": {
+        "status": 200,
+        "fixedDelayMilliseconds": 2000,
+        "bodyFileName": "users/all_users.json",        
+        "headers": {
+          "Content-Type": "application/json"
+      }
+    }
+  }
+  

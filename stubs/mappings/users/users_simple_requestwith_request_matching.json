@@ -1,0 +1,21 @@
+{       
+    "priority": 1,
+    "request": {        
+        "method": "GET",
+        "urlPath": "/users",
+        "queryParameters" : {
+          "first_name" : {
+            "equalTo" : "Adam",
+            "caseInsensitive": true
+          }
+        }
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName": "users/only_adam.json",        
+        "headers": {
+          "Content-Type": "application/json"
+      }
+    }
+  }
+  

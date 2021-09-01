@@ -1,0 +1,23 @@
+{       
+    "priority": 1,
+    "request": {        
+        "method": "GET",
+        "urlPath": "/users",
+        "queryParameters" : {
+          "limit" : {
+            "equalTo" : "2"
+          },
+          "offset" : {
+            "equalTo" : "5"            
+          }
+        }
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName": "paginations/users_page_3.json",        
+        "headers": {
+          "Content-Type": "application/json"
+      }
+    }
+  }
+  
